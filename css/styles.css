@@ -1,0 +1,185 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 2rem;
+  color: white;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Global Classes */
+.standard-padding {
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 1.1rem;
+}
+
+/* Title Section */
+#title {
+  padding-bottom: 7%;
+  background-color: #ff4c68;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  margin: 50px;
+  position: absolute;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Section */
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1
+}
+
+
+
+.feature-boxes {
+  padding: 0 5%;
+  text-align: center;
+}
+
+.feature-icons{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+  position: relative;
+  z-index: 1;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+/* Pricing Section */
+#pricing {
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+.bottom-btn {
+  position: relative;
+  text-align: center;
+  margin: 50px 20px 0 20px;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+}
+
+.social-link-icons {
+  color: grey;
+  margin: 1rem;
+}
+
+.social-link-icons:hover {
+  color: black;
+}
+
+/* Media Queries */
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+
+}
